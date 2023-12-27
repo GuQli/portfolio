@@ -1,0 +1,49 @@
+@media (max-width: 700px) {
+  #hamburgerMenu {
+    display: flex;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul.open {
+    display: flex;
+  }
+  nav ul li {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Default styles for larger screens */
+#navItems {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navItems li {
+  margin-right: 10px;
+}
+
+/* Media query for screens less than 700px */
+/* @media (max-width: 700px) {
+  #navItems {
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end; 
+  }
+
+  #navItems li {
+    margin-right: 0;
+    margin-bottom: 8px; 
+  }
+
+  #hamburgerMenu {
+    display: block; 
+  }
+} */

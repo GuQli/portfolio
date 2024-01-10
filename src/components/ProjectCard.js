@@ -3,7 +3,7 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaHtml5 } from "react-icons/fa6";
 
 export const ProjectCard = ({ project }) => {
-  const { name, description } = project;
+  const { name, description, picture, url } = project;
 
   return (
     <section className="p-10 w-full h-full bg-white dark:bg-gray-800 dark:text-white">
@@ -11,9 +11,10 @@ export const ProjectCard = ({ project }) => {
         <div className="flex justify-start">
           <div className="flex w-full object-cover justify-items-start border rounded-lg overflow-hidden min-h-80">
             <img
-              className="w-full h-full object-cover hover:scale-125 transition duration-500 "
-              src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-              alt="nike shoes"
+              onClick={() => window.open(url, "_blank")}
+              className="w-full h-full object-cover hover:scale-125 transition duration-500 cursor-pointer "
+              src={picture}
+              alt="project"
             />
           </div>
         </div>
@@ -26,7 +27,7 @@ export const ProjectCard = ({ project }) => {
             </p>
             <div className="flex justify-center items-center space-x-4">
               <p className="lg:text-lg sm:text-base text-gray-500 dark:text-white">
-                Languages Used:
+                Based on:
               </p>
               <span>
                 <FaReact />
@@ -39,7 +40,10 @@ export const ProjectCard = ({ project }) => {
               </span>
             </div>
             <div className="flex items-center justify-center gap-4 my-6 cursor-pointer ">
-              <button className="bg-blue-600 hover:bg-blue-500 px-5 py-3 text-white rounded-lg w-1/4 text-center dark:bg-blue-900">
+              <button
+                onClick={() => window.open(url, "_blank")}
+                className="bg-blue-600 hover:bg-blue-500 px-5 py-3 text-white rounded-lg w-1/4 text-center dark:bg-blue-900"
+              >
                 View
               </button>
             </div>

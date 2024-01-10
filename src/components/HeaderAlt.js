@@ -8,9 +8,12 @@ import { SideBurgerMenu } from "./SideBurgerMenu";
 import "./HeaderAlt.css";
 
 export const HeaderAlt = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(
+    JSON.parse(localStorage.getItem("darkMode")) || false
+  );
 
   useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
     if (darkMode) {
       document.documentElement.classList.add("dark");
       console.log("darkmodeOn");

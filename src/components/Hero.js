@@ -15,9 +15,8 @@ export const Hero = () => {
           </p>
 
           <div className="flex justify-center gap-4 m-4">
-            <button className="font-medium text-[16px] flex items-center  px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">
+            <button className="font-medium text-[16px] flex items-center  px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-[#60e7ff] to-[#8000FF] hover:from-yellow-500 hover:to-red-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">
               Get In Touch
-              <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
             </button>
           </div>
         </div>
@@ -49,3 +48,5 @@ export const Hero = () => {
 //     </p>
 //   </div>
 // </section>;
+
+// beating ping on button: <span className="animate-ping absolute left-0 top-0 w-5 h-5  rounded-full bg-gradient-to-r "></span>

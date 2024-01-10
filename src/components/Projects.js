@@ -1,11 +1,16 @@
+import { useState, useEffect } from "react";
 import { ProjectCard } from "./ProjectCard";
+import imgProject1 from "../assets/project1.png";
 
 export const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "project1",
-      description: "bla bla 1",
+      name: "E-Books ECommerse Site",
+      description:
+        "E-Commerse Web app with following functionalities: Cart, Login, Logout, Cartlist, Featured Products, All products, Filtration. Used react Hooks, context & reducers",
+      picture: imgProject1,
+      url: "https://bookecomm-guqli.netlify.app/",
       languages: { lang1: "react", lang2: "css", lang3: "html" },
     },
     {
@@ -30,7 +35,7 @@ export const Projects = () => {
 
   return (
     <section className="my-20">
-      <h1 className="uppercase text-2xl text-center font-semibold dark:text-slate-100 mb-5 underline underline-offset-8">
+      <h1 className="uppercase text-4xl font-extrabold text-center font-semibold dark:text-slate-100 mb-5 underline underline-offset-8">
         Projects {projects.length}
       </h1>
       <div className="flex flex-wrap justify-center lg:flex-row">
@@ -41,3 +46,20 @@ export const Projects = () => {
     </section>
   );
 };
+
+// const [projects, setProjects] = useState([]);
+// const token = "nfp_bV2Ca7VvgwRidTCPMCoX2dwhorJot3NU73c3";
+// const netlifyLink = "https://app.netlify.com/teams/guqli/sites";
+
+// useEffect(() => {
+//   async function fetchSites() {
+//     const response = await fetch(netlifyLink, {
+//       headers: { Authorization: `Bearer ${token}` },
+//     });
+
+//     const data = await response.json();
+//     setProjects(data);
+//     console.log(data);
+//   }
+//   fetchSites();
+// }, []);

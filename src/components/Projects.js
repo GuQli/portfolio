@@ -35,7 +35,7 @@ export const Projects = () => {
 
   return (
     <section className="my-20">
-      <h1 className="uppercase text-4xl font-extrabold text-center font-semibold dark:text-slate-100 mb-5 underline underline-offset-8">
+      <h1 className="uppercase text-4xl font-extrabold text-center font-bold dark:text-slate-100 mb-5 underline underline-offset-8">
         Projects {projects.length}
       </h1>
       <div className="flex flex-wrap justify-center lg:flex-row">

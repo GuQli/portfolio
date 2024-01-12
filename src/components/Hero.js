@@ -6,12 +6,12 @@ export const Hero = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20">
         <div className="content">
           <p className="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight mt-5 sm:mt-0 ">
-            I'm Tony Stark <br />
+            I'm Guga Qlibadze <br />
             <span>Web Developer</span>
           </p>
           <p className="mt-5 md:text-md ">
-            I'm junior front web developer based in Tbiliis, and I'm very
-            passionate and dedicated to my work.
+            I'm front-end web developer based in Tbilisi, enthusiastic and
+            commited to the work.
           </p>
 
           <div className="flex justify-center gap-4 m-4">

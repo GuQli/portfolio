@@ -9,7 +9,6 @@ export const Contact = () => {
             name="contact"
             method="post"
             data-netlify="true"
-            onSubmit="submit"
             className="p-8 my-4 md:px-12 lg:w-full lg:pl-20 lg:pr-40 mr-auto rounded-2xl"
           >
             <div className="flex justify-center">
@@ -55,25 +54,24 @@ export const Contact = () => {
               </label>
               <label>
                 <input
-                  class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg border border-slate-600"
+                  className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg border border-slate-600"
                   type="number"
                   placeholder="Phone Number"
                   name="number"
                 />
               </label>
             </div>
-            <div class="my-4">
+            <div className="my-4">
               <textarea
                 placeholder="Message*"
-                class="w-full h-48 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg border border-slate-600"
+                className="w-full h-48 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg border border-slate-600"
                 name="message"
                 required
               ></textarea>
             </div>
-            <div class="my-2  flex justify-center">
+            <div className="my-2  flex justify-center">
               <button
-                type="submit"
-                class="text-black uppercase text-m font-bold bg-yellow-500 p-4 rounded-lg
+                className="text-black uppercase text-m font-bold bg-yellow-500 p-4 rounded-lg
                      hover:bg-yellow-400 transition duration-300 hover:scale-105 dark:text-white"
               >
                 Surprise Me!

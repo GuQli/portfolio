@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { ProjectCard } from "./ProjectCard";
 import imgProject1 from "../assets/project1.png";
 

@@ -20,7 +20,7 @@ export const Contact = () => {
                     aria-hidden="true"
                   ></span>
                   <span className="relative text-black dark:text-white">
-                    Got!
+                    Got
                   </span>
                 </span>
               </h1>

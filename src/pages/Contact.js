@@ -8,7 +8,7 @@ export const Contact = () => {
           <form
             name="contact"
             method="post"
-            data-netlify="true"
+            netflify="true"
             className="p-8 my-4 md:px-12 lg:w-full lg:pl-20 lg:pr-40 mr-auto rounded-2xl"
           >
             <div className="flex justify-center">
@@ -16,7 +16,7 @@ export const Contact = () => {
                 Tell me what you've
                 <span className="relative ml-2">
                   <span
-                    className="block absolute -inset-0 skew-x-12 bg-yellow-500"
+                    className="block absolute -inset-0 skew-x-12 bg-gradient-to-tr from-[#60e7ff] to-[#8000FF]"
                     aria-hidden="true"
                   ></span>
                   <span className="relative text-black dark:text-white">
@@ -71,10 +71,11 @@ export const Contact = () => {
             </div>
             <div className="my-2  flex justify-center">
               <button
-                className="text-black uppercase text-m font-bold bg-yellow-500 p-4 rounded-lg
-                     hover:bg-yellow-400 transition duration-300 hover:scale-105 dark:text-white"
+                type="submit"
+                className="text-black uppercase text-m font-bold bg-[#60e7ff] p-4 rounded-lg
+                  transition duration-300 hover:bg-[#8000FF] dark:text-white"
               >
-                Surprise Me!
+                Send!
               </button>
             </div>
           </form>

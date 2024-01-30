@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.png";
 import { IoMdSunny } from "react-icons/io";
 import { IoMdMoon } from "react-icons/io";
 import { SideBurgerMenu } from "./SideBurgerMenu";
@@ -29,7 +29,7 @@ export const HeaderAlt = () => {
         pageWrapId={"headerAlt"}
         outerContainerId={"outer-container"}
       />
-      <nav id="headerAlt" className="w-screen bg-teal-500 dark:bg-gray-800">
+      <nav id="headerAlt" className="w-screen bg-gray-500 dark:bg-gray-800">
         <div className="py-4 lg:px-8 px-4 m-auto h-16 text-white flex items-center justify-between dark:border-b-0">
           <div className="flex items-center">
             <img src={logo} alt="" className="h-14 mx-8" />

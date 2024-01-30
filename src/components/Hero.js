@@ -1,4 +1,5 @@
 import heroImage from "../assets/heroimage.jpg";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -10,14 +11,17 @@ export const Hero = () => {
             <span>Web Developer</span>
           </p>
           <p className="mt-5 md:text-md ">
-            I'm front-end web developer based in Tbilisi, enthusiastic and
-            commited to the work.
+            I'm junior front-end web developer based in Tbilisi, enthusiastic
+            and commited
           </p>
 
           <div className="flex justify-center gap-4 m-4">
-            <button className="font-medium text-[16px] flex items-center  px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-[#60e7ff] to-[#8000FF] hover:from-yellow-500 hover:to-red-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">
+            <Link
+              to="/contact"
+              className="font-medium text-[16px] flex items-center  px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-stone-400 to-stone-900 hover:from-yellow-500 hover:to-red-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass "
+            >
               Get In Touch
-            </button>
+            </Link>
           </div>
         </div>
         <div className="relative sm:mt-0 mt-10 px-6 sm:px-0">

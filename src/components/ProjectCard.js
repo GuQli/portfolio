@@ -42,7 +42,7 @@ export const ProjectCard = ({ project }) => {
             <div className="flex items-center justify-center gap-4 my-6 cursor-pointer ">
               <button
                 onClick={() => window.open(url, "_blank")}
-                className="bg-blue-600 hover:bg-blue-500 px-5 py-3 text-white rounded-lg w-1/4 text-center dark:bg-blue-900"
+                className="bg-stone-900 hover:bg-stone-400 px-5 py-3 text-white rounded-lg w-1/4 text-center dark:bg-gray-200 dark:text-black "
               >
                 View
               </button>

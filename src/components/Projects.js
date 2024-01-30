@@ -1,11 +1,14 @@
 import { ProjectCard } from "./ProjectCard";
 import imgProject1 from "../assets/project1.png";
+import imgProject2 from "../assets/project2.png";
+import imgProject3 from "../assets/project3.png";
+import imgProject4 from "../assets/project4.png";
 
 export const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "E-Books ECommerse Site",
+      name: "E-Books E-Commerse Site",
       description:
         "E-Commerse Web app with following functionalities: Cart, Login, Logout, Cartlist, Featured Products, All products, Filtration. Used react Hooks, context & reducers",
       picture: imgProject1,
@@ -14,20 +17,29 @@ export const Projects = () => {
     },
     {
       id: 2,
-      name: "project2",
-      description: "bla bla 2",
-      languages: { lang1: "react", lang2: "css", lang3: "html" },
+      name: "Shopping App",
+      description:
+        "Simple shopping app, with add/remove from cart functionality. ",
+      picture: imgProject2,
+      url: "https://shoppingappalt.netlify.app",
+      languages: { lang1: "react", lang2: "Tailwind", lang3: "html" },
     },
     {
       id: 3,
-      name: "project3",
-      description: "bla bla 3",
+      name: "Movie App",
+      description:
+        "Using API, list movies, sorting them by popular, top rated, upcoming, each movie has its detailed card. ",
+      picture: imgProject3,
+      url: "https://movieappguqli.netlify.app",
       languages: { lang1: "react", lang2: "css", lang3: "html" },
     },
     {
       id: 4,
-      name: "project4",
-      description: "bla bla 4",
+      name: "Write Posts",
+      description:
+        "Simple app to write posts, with functionality to save to firestore database, login/logout, delete posts, update all posts",
+      picture: imgProject4,
+      url: "https://writepostsguqli.netlify.app/",
       languages: { lang1: "react", lang2: "css", lang3: "html" },
     },
   ];

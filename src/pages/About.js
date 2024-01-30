@@ -25,8 +25,8 @@ export const About = () => {
           <div class="">
             <p className="text-left m-[40px] font-light text-xl font-semibold leading-normal text-gray-900 dark:text-white ">
               My surname holds the story of ancestors who crafted and sharpened
-              tools for triumph in the past, such as: swords, axes, spikes, and
-              more... It resonates with the art of crafting tools for success.
+              tools for triumph in the past...It resonates with the art of
+              crafting tools for success.
               <br /> Inspired by this legacy, I've chosen to transition it into
               becoming a
               <span className="uppercase bg-slate-300 mx-2 p-1 rounded-xl dark:bg-blue-500">

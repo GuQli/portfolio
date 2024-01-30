@@ -4,6 +4,14 @@ import { Skills } from "../components/Skills";
 
 //flex-wrap sm:flex-row m-3
 export const About = () => {
+  const handleDownload = () => {
+    const downloadLink = document.createElement("a");
+    downloadLink.href = "/assets/CV_GURAM QLIBADZE.pdf";
+    downloadLink.target = "_blank";
+
+    downloadLink.click();
+  };
+
   return (
     <main>
       <div className="flex justify-center min-h-screen dark:bg-gray-800 dark:text-white">
@@ -59,7 +67,10 @@ export const About = () => {
             >
               Get In Touch
             </NavLink>
-            <button className="inline-block px-[30px] py-[16px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px]">
+            <button
+              onClick={handleDownload}
+              className="inline-block px-[30px] py-[16px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px]"
+            >
               Download CV
             </button>
           </div>

@@ -9,6 +9,7 @@ export const Contact = () => {
             name="contact"
             method="post"
             data-netflify="true"
+            netlify
             className="p-8 my-4 md:px-12 lg:w-full lg:pl-20 lg:pr-40 mr-auto rounded-2xl"
           >
             <div className="flex justify-center">

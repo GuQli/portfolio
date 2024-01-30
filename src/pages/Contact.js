@@ -9,9 +9,9 @@ export const Contact = () => {
             name="contact"
             method="post"
             data-netlify="true"
-            netlify
             className="p-8 my-4 md:px-12 lg:w-full lg:pl-20 lg:pr-40 mr-auto rounded-2xl"
           >
+            <input type="hidden" name="form-name" value="contact" />
             <div className="flex justify-center">
               <h1 className="font-bold uppercase text-4xl">
                 Tell me what you've

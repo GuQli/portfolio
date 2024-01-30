@@ -8,7 +8,7 @@ export const Contact = () => {
           <form
             name="contact"
             method="post"
-            netflify="true"
+            data-netflify="true"
             className="p-8 my-4 md:px-12 lg:w-full lg:pl-20 lg:pr-40 mr-auto rounded-2xl"
           >
             <div className="flex justify-center">

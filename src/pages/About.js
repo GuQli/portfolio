@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import heroImage from "../assets/gqpv1.jpg";
+import heroImage from "../assets/gqpv1L.jpg";
 import { Skills } from "../components/Skills";
 
 //flex-wrap sm:flex-row m-3

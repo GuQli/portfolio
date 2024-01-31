@@ -1,4 +1,4 @@
-import heroImage from "../assets/heroimage.jpg";
+import heroImage from "../assets/gqpv1.jpg";
 import { Link } from "react-router-dom";
 
 export const Hero = () => {
@@ -26,7 +26,7 @@ export const Hero = () => {
         </div>
         <div className="relative sm:mt-0 mt-10 px-6 sm:px-0">
           <img
-            className="w-[600px] animate__animated animate__fadeInRight animate__delay-.5s rounded"
+            className="w-[600px] animate__animated animate__fadeInRight animate__delay-.10s rounded-lg"
             src={heroImage}
             alt=""
           />

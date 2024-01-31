@@ -11,8 +11,8 @@ export const Hero = () => {
             <span>Web Developer</span>
           </p>
           <p className="mt-5 md:text-md ">
-            I'm junior front-end web developer based in Tbilisi, enthusiastic
-            and commited
+            I'm junior front-end React.js web developer based in Tbilisi,
+            enthusiastic and commited
           </p>
 
           <div className="flex justify-center gap-4 m-4">

@@ -30,8 +30,8 @@ export const About = () => {
             </div>
           </div>
 
-          <div class="">
-            <p className="text-left m-[40px] font-light text-xl font-semibold leading-normal text-gray-900 dark:text-white ">
+          <div>
+            <div className="text-left m-[40px] font-light text-xl font-semibold leading-normal text-gray-900 dark:text-white ">
               My surname holds the story of ancestors who crafted and sharpened
               tools for triumph in the past...It resonates with the art of
               crafting tools for success.
@@ -57,19 +57,19 @@ export const About = () => {
                 Join & support me on this journey, where every line of code is a
                 strategic move in the ever-evolving tech industry
               </p>
-            </p>
+            </div>
           </div>
           <Skills />
           <div className="flex text-center mt-4 justify-center">
             <NavLink
               to="/contact"
-              className="text-gray-800 inline-block px-[30px] py-[16px] mr-[18px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px] dark:text-white"
+              className="text-gray-800 inline-block px-[30px] py-[16px] mr-[18px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px] dark:text-white hover:bg-violet-400"
             >
               Get In Touch
             </NavLink>
             <button
               onClick={handleDownload}
-              className="inline-block px-[30px] py-[16px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px]"
+              className="inline-block px-[30px] py-[16px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px] hover:bg-violet-400"
             >
               Download CV
             </button>

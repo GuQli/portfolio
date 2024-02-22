@@ -11,8 +11,8 @@ export const Contact = () => {
     <main className="dark:bg-gray-800 dark:text-white">
       <div className="flex justify-center items-center bg-white dark:bg-gray-800 ">
         <div className="container ">
-          <form name="contactForm" method="POST">
-            <input type="hidden" name="form-name" value="contactForm" />
+          <form name="contact" method="POST">
+            <input type="hidden" name="form-name" value="contact" />
             <div>
               <label htmlFor="name">Name</label>
               <input

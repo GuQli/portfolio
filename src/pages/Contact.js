@@ -1,50 +1,8 @@
-import { useState } from "react";
-
 export const Contact = () => {
-  const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
-  const [email, setEmail] = useState("");
-
-  console.log(name, message, email);
-
   return (
     <main className="dark:bg-gray-800 dark:text-white">
       <div className="flex justify-center items-center bg-white dark:bg-gray-800 ">
-        <div className="container ">
-          <form name="contact" method="POST">
-            <input type="hidden" name="form-name" value="contact" />
-            <div>
-              <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                name="name"
-                placeholder="Name Surname"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
-            <div>
-              <label htmlFor="email">email</label>
-              <input
-                type="email"
-                name="email"
-                placeholder="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-            <div>
-              <label htmlFor="message">message</label>
-              <input
-                type="text"
-                name="message"
-                placeholder="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-              />
-            </div>
-          </form>
-        </div>
+        <div className="container "></div>
       </div>
     </main>
   );

@@ -30,8 +30,8 @@ export const About = () => {
             </div>
           </div>
 
-          <div class="">
-            <p className="text-left m-[40px] font-light text-xl font-semibold leading-normal text-gray-900 dark:text-white ">
+          <div>
+            <span className="text-left m-[40px] font-light text-xl font-semibold leading-normal text-gray-900 dark:text-white ">
               My surname holds the story of ancestors who crafted and sharpened
               tools for triumph in the past...It resonates with the art of
               crafting tools for success.
@@ -57,7 +57,7 @@ export const About = () => {
                 Join & support me on this journey, where every line of code is a
                 strategic move in the ever-evolving tech industry
               </p>
-            </p>
+            </span>
           </div>
           <Skills />
           <div className="flex text-center mt-4 justify-center">

@@ -12,7 +12,7 @@ export const Contact = () => {
             <input type="hidden" name="form-name" value="contact" />
             <div className="flex justify-center">
               <h1 className="font-bold uppercase text-4xl">
-                Tell me what you've
+                Tell me what you've lkjal;djflaj flsj fla
                 <span className="relative ml-2">
                   <span
                     className="block absolute -inset-0 skew-x-12 bg-gradient-to-tr from-[#60e7ff] to-[#8000FF]"

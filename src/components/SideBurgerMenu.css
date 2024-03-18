@@ -19,7 +19,7 @@
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #ffffff;
+  background: #8000ff;
 }
 
 /* Position and sizing of clickable cross button */
@@ -81,5 +81,7 @@
 }
 
 .bm-item:hover {
-  color: #ffffff;
+  color: #8000ff;
+  font-weight: bold;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }

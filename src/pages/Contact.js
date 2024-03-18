@@ -12,7 +12,7 @@ export const Contact = () => {
             <input type="hidden" name="form-name" value="contact" />
             <div className="flex justify-center">
               <h1 className="font-bold uppercase text-4xl">
-                Tell me what you've lkjal;djflaj flsj fla
+                Tell me what you've
                 <span className="relative ml-2">
                   <span
                     className="block absolute -inset-0 skew-x-12 bg-gradient-to-tr from-[#60e7ff] to-[#8000FF]"
@@ -47,7 +47,7 @@ export const Contact = () => {
                   name="email"
                   required
                 />
-                <p className="mt-2 invisible peer-invalid:visible text-red-600 text-xs">
+                <p className="mt-2 invisible peer-invalid:visible text-red-600 text-xs dark:text-white">
                   Please provide a valid email address
                 </p>
               </label>
@@ -72,7 +72,7 @@ export const Contact = () => {
               <button
                 type="submit"
                 className="text-black uppercase text-m font-bold bg-[#60e7ff] p-4 rounded-lg
-      transition duration-300 hover:bg-[#8000FF] dark:text-white"
+      transition duration-300 hover:bg-[#8000FF] dark:text-white dark:bg-[#8000FF] dark:hover:bg-[#60e7ff]"
               >
                 Send!
               </button>

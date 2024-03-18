@@ -63,13 +63,13 @@ export const About = () => {
           <div className="flex text-center mt-4 justify-center">
             <NavLink
               to="/contact"
-              className="text-gray-800 inline-block px-[30px] py-[16px] mr-[18px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px] dark:text-white"
+              className="text-gray-800 inline-block px-[30px] py-[16px] mr-[18px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px] dark:text-white hover:border-[#8000FF] hover:shadow-lg hover:shadow-indigo-500/40"
             >
               Get In Touch
             </NavLink>
             <button
               onClick={handleDownload}
-              className="inline-block px-[30px] py-[16px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px]"
+              className="inline-block px-[30px] py-[16px] bg-transparent border-2 rounded-full font-semibold sm:text-[22px] hover:border-[#8000FF] hover:shadow-lg hover:shadow-indigo-500/40"
             >
               Download CV
             </button>

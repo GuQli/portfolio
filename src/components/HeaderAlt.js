@@ -32,7 +32,7 @@ export const HeaderAlt = () => {
       <nav id="headerAlt" className="w-screen bg-gray-500 dark:bg-gray-800">
         <div className="py-4 lg:px-8 px-4 m-auto h-16 text-white flex items-center justify-between dark:border-b-0">
           <div className="flex items-center">
-            <img src={logo} alt="" className="h-14 mx-8" />
+            <img src={logo} alt="" className="h-14 mx-8 rounded-2xl" />
             <h1 className="lg:text-2xl text-xl uppercase cursor-pointer font-bold dark:text-white">
               Portfolio
             </h1>

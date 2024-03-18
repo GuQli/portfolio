@@ -7,7 +7,7 @@ export const Hero = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20">
         <div className="content">
           <p className="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight mt-5 sm:mt-0 ">
-            I'm Guga Qlibadze AEEEEEEEEEEEE
+            I'm Guga Qlibadze
             <br />
             <span>Web Developer</span>
           </p>

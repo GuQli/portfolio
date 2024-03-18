@@ -7,7 +7,7 @@ export const SideBurgerMenu = () => {
   return (
     <Menu right id="sideburgermenu">
       <NavLink className="menu-item" to="/">
-        home
+        Home
       </NavLink>
       <NavLink className="menu-item" to="about">
         About

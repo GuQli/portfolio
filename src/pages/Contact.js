@@ -14,11 +14,11 @@ export const Contact = () => {
       <div className="flex justify-center items-center bg-white dark:bg-gray-800 ">
         <div className="container ">
           <form
-            name="contactGuQli"
+            name="contact"
             method="post"
             className="p-8 my-4 md:px-12 lg:w-full lg:pl-20 lg:pr-40 mr-auto rounded-2xl"
           >
-            <input type="hidden" name="form-name" value="contactGuQli" />
+            <input type="hidden" name="form-name" value="contact" />
             <div className="flex justify-center">
               <h1 className="font-bold uppercase text-4xl">
                 Tell me what you've
